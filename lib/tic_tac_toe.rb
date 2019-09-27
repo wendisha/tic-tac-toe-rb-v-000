@@ -14,11 +14,11 @@
   end 
   
   def display_board 
-    p " #{@board[0]} | #{@board[1]} | #{@board[2]} "
-    p "-----------"
-    p " #{@board[3]} | #{@board[4]} | #{@board[5]} "
-    p "-----------"
-    p " #{@board[6]} | #{@board[7]} | #{@board[8]} "
+    puts " #{@board[0]} | #{@board[1]} | #{@board[2]} "
+    puts "-----------"
+    puts " #{@board[3]} | #{@board[4]} | #{@board[5]} "
+    puts "-----------"
+    puts " #{@board[6]} | #{@board[7]} | #{@board[8]} "
   end 
   
   def input_to_index(user_input)
